@@ -40,15 +40,10 @@ namespace cipher_maker
 
         public void cipherText(string plainText)
         {
-            // Caesar(plainText, 3);
-            MessageBox.Show(Caesar(plainText, 3));
             textBoxCiphered.Text = Caesar(plainText, 3);
         }
 
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        public Form1() => InitializeComponent();
 
         private void Form1_Load(object sender, EventArgs e)
         {
