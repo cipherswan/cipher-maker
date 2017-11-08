@@ -11,7 +11,7 @@ using CipherAlgorithm;
 
 namespace cipher_maker
 {
-    public partial class Form1 : Form
+    public partial class Encrypt : Form
     {
         CipherClass component = new CipherClass();
 
@@ -23,14 +23,26 @@ namespace cipher_maker
             textBoxCiphered.Text = component.returnCipher();
         }
 
-        public Form1() => InitializeComponent();
-        private void Form1_Load(object sender, EventArgs e) { }
+        public Encrypt() => InitializeComponent();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.ActiveControl = textBoxText;
+        }
         
         private void button1_Click(object sender, EventArgs e)
         {
-            string plain = textBoxText.Text;
-
+            string plain = textBoxText.Text;       
             cipherText(plain);      
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            textBoxText.Clear();          
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
