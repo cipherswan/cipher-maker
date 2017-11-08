@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cipher_maker", "cipher_maker\cipher_maker.csproj", "{84A12ACC-C0C9-4ABF-BE58-2DFD652BAD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherAlgorithm", "CipherAlgorithm\CipherAlgorithm.csproj", "{B2F15CBA-431D-4EB4-85A1-B253DEA4F76C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{84A12ACC-C0C9-4ABF-BE58-2DFD652BAD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A12ACC-C0C9-4ABF-BE58-2DFD652BAD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A12ACC-C0C9-4ABF-BE58-2DFD652BAD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F15CBA-431D-4EB4-85A1-B253DEA4F76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F15CBA-431D-4EB4-85A1-B253DEA4F76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F15CBA-431D-4EB4-85A1-B253DEA4F76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F15CBA-431D-4EB4-85A1-B253DEA4F76C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C66B2CBC-E929-482F-A216-8C012D86CF8A}
 	EndGlobalSection
 EndGlobal
