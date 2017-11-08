@@ -41,7 +41,7 @@ namespace cipher_maker
         public void cipherText(string plainText)
         {
             // Caesar(plainText, 3);
-            // MessageBox.Show(Caesar(plainText, 3));
+            MessageBox.Show(Caesar(plainText, 3));
             textBoxCiphered.Text = Caesar(plainText, 3);
         }
 
