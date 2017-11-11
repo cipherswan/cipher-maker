@@ -32,8 +32,11 @@ namespace CipherAlgorithm
                 char letter = buffer[i];
                 
                 letter = (char)(letter + shift);
-               
-                if (letter > 'z')
+
+                if (char.IsUpper(letter))
+                {
+                    letter = (char)(letter);
+                }else if (letter > 'z')
                 {
                     letter = (char)(letter - 26);
                 }
